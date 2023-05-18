@@ -101,8 +101,8 @@ def send_to_discord(webhook_url, image_paths=None, message=""):
 
 
 def main():
-    access_key = "n6RhZqpXP76AfUzU7VXw9Zmc15IKRxDnVohvwBtB"
-    secret_key = "eGIxtX2FuN03Froae1QwRgWNVc3l8n7WD21F60PB"
+    access_key = "REDACTED FOR SECURITY REASON"
+    secret_key = "REDACTED FOR SECURITY REASON"
     upbit = login_to_upbit(access_key, secret_key)
     ticker = "KRW-BTC"
     buy_price = None
